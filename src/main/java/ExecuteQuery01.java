@@ -64,5 +64,9 @@ public class ExecuteQuery01 {
             System.out.println(resultSet4.getString("name")+" -- "+resultSet4.getInt("grade"));
         }
 
+        statement.close();
+        con.close();
+
     }
+
 }
