@@ -15,9 +15,6 @@ public class PreparedStatement02 {
         System.out.println("number of rows updated: "+numOfUpdatedRows);
 
 
-        System.out.println("************ TASK-2 **************");
-        //TASK-2. Insert software engineering department using prepared statement into departments table.
-        // (id = 5006, pass_grade=475, campus='South')
 
         //TASK-2. Insert software engineering department using prepared statement into departments table.
         // (id = 5006, pass_grade=475, campus='South')

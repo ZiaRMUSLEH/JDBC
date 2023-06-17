@@ -6,7 +6,7 @@ public class PreparedStatement01 {
         Statement statement = con.createStatement();
 
         //TASK-1. Update pass_grade to 475 of Mathematics department (use PreparedStatement)
-        //mormal string query
+        //normal string query
         //String query1 = "UPDATE departments SET pass_grade = 475 WHERE department ILIKE 'mathematics'";
         System.out.println("************** Task-1 **************");
 

@@ -49,6 +49,7 @@ public class ExecuteQuery01 {
         //TASK-3. Get all information about the developers whose salary is lowest
         String query3 = "SELECT * FROM developers WHERE salary = (SELECT MIN(salary) FROM developers)";
         ResultSet resultSet3 = statement.executeQuery(query3);
+
         while (resultSet3.next()){
             System.out.println(resultSet3 .getInt("id")+" -- "+resultSet3.getString("name")+" -- "
                     +resultSet3.getInt("salary")+" -- "+resultSet3.getString("prog_lang"));
